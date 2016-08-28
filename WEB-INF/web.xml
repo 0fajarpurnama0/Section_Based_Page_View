@@ -1,0 +1,23 @@
+<web-app>
+
+<servlet>
+   <servlet-name>section_page_view_prototype_api_store</servlet-name>
+   <servlet-class>section_page_view_prototype_api_store</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>section_page_view_prototype_api_store</servlet-name>
+   <url-pattern>/section_page_view_prototype_api_store</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>section_page_view_prototype_api_show</servlet-name>
+   <servlet-class>section_page_view_prototype_api_show</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>section_page_view_prototype_api_show</servlet-name>
+   <url-pattern>/section_page_view_prototype_api_show</url-pattern>
+</servlet-mapping>
+
+</web-app>
