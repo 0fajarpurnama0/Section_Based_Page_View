@@ -112,6 +112,7 @@ document.body.insertBefore(submit_element[j], document.body.children[k]);
 
 var track_element = [];
 track_element[j] = document.createElement("div");
+track_element[j].setAttribute("id", j);
 track_element[j].setAttribute("onmouseenter", "startCount("+j+")");
 track_element[j].setAttribute("onmouseleave", "stopCount("+j+")");
 submit_element[j].appendChild(track_element[j]);
@@ -168,6 +169,7 @@ while(document.body.children.length > (document.getElementsByTagName("H1").lengt
       document.body.insertBefore(submit_element[j], document.body.children[k]);
 
       track_element[j] = document.createElement("div");
+      track_element[j].setAttribute("id", j);
       track_element[j].setAttribute("onmouseenter", "startCount("+j+")");
       track_element[j].setAttribute("onmouseleave", "stopCount("+j+")");
       submit_element[j].appendChild(track_element[j]);
